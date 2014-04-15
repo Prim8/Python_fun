@@ -54,7 +54,7 @@ def rpsls(player_choice):
     print 
     print "Player chooses", player_choice
     player_number = name_to_number(player_choice)
-    comp_number = random.randrange(0,4)
+    comp_number = random.randrange(0,5)
     comp_name = number_to_name(comp_number)
     print "Computer chooses", comp_name
     winner = (comp_number - player_number) % 5
